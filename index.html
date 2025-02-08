@@ -123,5 +123,19 @@
       document.body.appendChild(script);
 
     </script>
+
+    const firebaseApp = firebase.initializeApp({
+    apiKey: "XXXXXXXXXXXXXXX",
+    authDomain: "prjj-555a0.firebaseapp.com",
+    databaseURL: "https://prjj-555a0-default-rtdb.firebaseio.com",
+    projectId: "prjj-555a0",
+    storageBucket: "XXXXXXXXXXXXX.appspot.com",
+    messagingSenderId: "839028148157",
+    appId: "X:XXXXXXXXXXXXXXX:web:XXXXXXXXXXXXXXXX",
+    measurementId: "XXXXXXXXXXXXX"
+});
+const db = firebaseApp.firestore();
+const auth = firebaseApp.auth();
+// declare other services here...
   </body>
 </html>
